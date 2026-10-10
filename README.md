@@ -7,6 +7,7 @@ every 3 hours until 5:00 PM, with a live countdown to the next one.
 
 - `_config.yml` – site title, pump interval, and cutoff time
 - `index.html` – the page
+- `apple-touch-icon.png` – the iPhone home-screen icon (180×180)
 - `assets/app.js` – schedule and countdown logic
 - `assets/cowboy.svg` – the cowboy background tile
 - `assets/style.css` – styling (follows light/dark mode)
