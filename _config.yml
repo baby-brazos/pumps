@@ -1,0 +1,11 @@
+title: Pump Times
+description: Pumping schedule and countdown
+lang: en
+
+# Pumping schedule settings (read by the page's JavaScript)
+pump:
+  interval_hours: 3
+  cutoff: "17:00"   # last pump can be at or before this time (24-hour clock)
+
+exclude:
+  - README.md

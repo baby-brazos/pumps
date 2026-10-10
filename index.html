@@ -1,0 +1,59 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f6f1ea">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+
+  <main id="app" class="screen">
+    <header>
+      <h1>⏱️ {{ site.title }}</h1>
+    </header>
+
+    <section class="card countdown">
+      <p class="label" id="next-label">Next pump</p>
+      <p class="big" id="countdown">--:--:--</p>
+      <p class="sub" id="next-time"></p>
+    </section>
+
+    <section class="card">
+      <form id="pump-form">
+        <label for="pump-time">Pump time</label>
+        <div class="row">
+          <input id="pump-time" type="time" required>
+          <button type="button" id="now" class="secondary">Now</button>
+        </div>
+        <button type="submit">Log pump</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Today's schedule</h2>
+      <ul id="schedule"></ul>
+      <p id="empty" class="sub">Log the first pump to see the schedule.</p>
+    </section>
+
+    <section class="card">
+      <h2>Logged today</h2>
+      <ul id="log"></ul>
+      <button id="reset" class="link danger">Clear today</button>
+    </section>
+  </main>
+
+  <script>
+    window.PUMP_CONFIG = {
+      intervalHours: {{ site.pump.interval_hours | default: 3 }},
+      cutoff: "{{ site.pump.cutoff | default: '17:00' }}"
+    };
+  </script>
+  <script src="{{ '/assets/app.js' | relative_url }}"></script>
+</body>
+</html>
