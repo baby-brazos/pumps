@@ -1,6 +1,6 @@
 # Pump Times
 
-A tiny Jekyll site for GitHub Pages. Log a pump and it shows the next pumps
+A tiny Jekyll site for GitHub Pages, with a pink-and-purple cowboy theme. Log a pump and it shows the next pumps
 every 3 hours until 5:00 PM, with a live countdown to the next one.
 
 ## Files
@@ -8,6 +8,7 @@ every 3 hours until 5:00 PM, with a live countdown to the next one.
 - `_config.yml` – site title, pump interval, and cutoff time
 - `index.html` – the page
 - `assets/app.js` – schedule and countdown logic
+- `assets/cowboy.svg` – the cowboy background tile
 - `assets/style.css` – styling (follows light/dark mode)
 
 ## Publish on GitHub Pages

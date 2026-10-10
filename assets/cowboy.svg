@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260">
+  <!-- Cowboy hat (pink) -->
+  <g transform="translate(22 30)" fill="#e0679f" fill-opacity="0.30">
+    <path d="M26 40 C24 22 30 6 40 8 C46 9 48 16 52 16 C56 16 58 9 64 8 C74 6 80 22 78 40 Z"/>
+    <path d="M0 30 C4 46 22 52 52 52 C82 52 100 46 104 30 C96 40 80 42 52 42 C24 42 8 40 0 30 Z"/>
+    <rect x="26" y="34" width="52" height="6" rx="2" fill="#8e5bc9" fill-opacity="0.45"/>
+  </g>
+
+  <!-- Cowboy boot (purple) -->
+  <g transform="translate(160 18)" fill="#8e5bc9" fill-opacity="0.28">
+    <path d="M12 0 L42 0 L44 46 C54 50 72 54 82 62 C86 68 82 72 74 72 L14 72 L10 58 Z"/>
+    <rect x="10" y="70" width="14" height="8" rx="2"/>
+    <path d="M18 14 Q27 24 36 14" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+    <path d="M18 28 Q27 38 36 28" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+  </g>
+
+  <!-- Sheriff star (pink) -->
+  <g fill="#d65b98" fill-opacity="0.30"><polygon points="196.0,152.0 202.5,167.1 218.8,168.6 206.5,179.4 210.1,195.4 196.0,187.0 181.9,195.4 185.5,179.4 173.2,168.6 189.5,167.1"/><circle cx="196.0" cy="152.0" r="3"/><circle cx="218.8" cy="168.6" r="3"/><circle cx="210.1" cy="195.4" r="3"/><circle cx="181.9" cy="195.4" r="3"/><circle cx="173.2" cy="168.6" r="3"/></g>
+
+  <!-- Horseshoe (purple) -->
+  <g transform="translate(40 150)" fill="none" stroke="#9a68d6" stroke-opacity="0.32" stroke-width="10">
+    <path d="M0 0 L0 22 A22 22 0 0 0 44 22 L44 0"/>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.6">
+    <circle cx="40" cy="160" r="1.8"/><circle cx="40" cy="176" r="1.8"/>
+    <circle cx="84" cy="160" r="1.8"/><circle cx="84" cy="176" r="1.8"/>
+  </g>
+
+  <!-- Little cactus (lavender) -->
+  <g transform="translate(118 196)" fill="#b083e0" fill-opacity="0.30">
+    <rect x="14" y="0" width="12" height="48" rx="6"/>
+    <path d="M14 26 L6 26 C2 26 0 22 0 18 L0 8 C0 4 6 4 6 8 L6 20 L14 20 Z"/>
+    <path d="M26 18 L34 18 L34 6 C34 2 40 2 40 6 L40 16 C40 20 38 24 34 24 L26 24 Z"/>
+  </g>
+
+  <!-- Tiny sparkles -->
+  <g fill="#e48fbf" fill-opacity="0.35">
+    <circle cx="128" cy="96" r="2.5"/><circle cx="238" cy="110" r="2"/><circle cx="16" cy="236" r="2"/><circle cx="104" cy="22" r="2"/>
+  </g>
+</svg>
